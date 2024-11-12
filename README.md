@@ -47,7 +47,14 @@ if you're using a different OS, you need to replace it with the expected binarie
 
 ## Instruction
 
-If you're using VSCode You can simply run the provided task (`ctrl+shift+p > Run Task > build nvcc`)
+1. add a few things to path. The location that you need to add should look like this :
+```
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\Hostx64\x64
+```
+
+2. create `/exe/` diretory 
+
+3. If you're using VSCode You can simply run the provided task (`ctrl+shift+p > Run Task > build nvcc`)
 
 It will simply run the following command :
 ```shell

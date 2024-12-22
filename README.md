@@ -74,6 +74,18 @@ The VScode task will compile statically. (as it's obviously recommended).
 If for some reason you want to compile dynamically, check the readme of glfw pre-compiled binairies
 At the very least you'll need to add glfw3.dll to your .exe directory (or path) and link with glfw3dll.lib. Note that you can get rid of `-luser32`, `-lgdi32`, `-lshell32` if you're compiling dynamically
 
+# Intellisense for librairies :
+
+Simply update the include path in `c_cpp_properties.json`. For instance :
+
+```json
+"includePath": [
+                "${workspaceFolder}/**",
+                "O:/vcpkg/installed/x64-windows/include/**"
+            ],
+```
+
+
 
 # Using ImGui
 
